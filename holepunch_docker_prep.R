@@ -3,13 +3,13 @@
 #remotes::install_github("karthik/holepunch")
 library(holepunch)
 #makes a compendium
-write_compendium_description(package = "Your compendium name", 
-                             description = "Your compendium description")
+write_compendium_description(package = "PracticeGit", 
+                             description = "Practice using git")
 # to write a description, with dependencies. Be sure to fill in placeholder text
 
 # writes a docker file. Preserves the environment you are working in. E.g. version of R studio,
 # version of packages 
-write_dockerfile(maintainer = "your_name") 
+write_dockerfile(maintainer = "james_smith") 
 # To write a Dockerfile. It will automatically pick the date of the last 
 # modified file, match it to that version of R and add it here. You can 
 # override this by passing r_date to some arbitrary date
